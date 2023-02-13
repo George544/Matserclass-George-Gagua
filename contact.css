@@ -1,0 +1,62 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.contact-form {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    text-align: center;
+  }
+  
+  h2 {
+    color: black;
+    font-size: 36px;
+    display: inline;
+    padding: 19px;
+    border:1px solid  rgb(5, 178, 236);
+    border-radius: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: white;
+  }
+  
+  input[type="submit"] {
+    background-color: rgb(5, 178, 236);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: blue;
+  }
+  
+  @media screen and(min-width:600px){
+    body{
+        min-height: 100vh;
+    }
+    main{
+        flex-direction: none;
+        min-height: 100%;
+        flex: 1 1 auto;
+    }
+}
